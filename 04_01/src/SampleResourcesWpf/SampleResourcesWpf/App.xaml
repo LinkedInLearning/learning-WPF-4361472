@@ -1,0 +1,10 @@
+﻿<Application x:Class="SampleResourcesWpf.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:SampleResourcesWpf"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <!-- Applicationクラスで設定したResourcesは全てのWindowで利用できる-->
+        <SolidColorBrush x:Key="RedColorBrush" Color="red" />
+    </Application.Resources>
+</Application>
