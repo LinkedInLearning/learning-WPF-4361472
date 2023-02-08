@@ -1,0 +1,53 @@
+﻿<Window x:Class="SampleMenuControl.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SampleMenuControl"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel>
+        <Menu>
+            <MenuItem Header="Menu 1">
+                <MenuItem Header="ABC"/>
+                <MenuItem Header="DEF"/>
+                <MenuItem Header="GHI">
+                    <MenuItem Header="123"/>
+                    <MenuItem Header="456"/>
+                </MenuItem>
+            </MenuItem>
+            <MenuItem Header="Menu 2">
+                <MenuItem Header="あいう"/>
+                <MenuItem Header="えおか"/>
+            </MenuItem>
+        </Menu>
+
+        <ToolBarTray>
+            <ToolBar>
+                <Button Content="tool 1" />
+                <Button Content="tool 2" />
+                <Separator />
+                <Button Content="tool 3" />
+            </ToolBar>
+            <ToolBar>
+                <Button>
+                    <Image Source="/001.png" Width="24" Stretch="UniformToFill"/>
+                </Button>
+                <Separator />
+            </ToolBar>
+        </ToolBarTray>
+        
+        <TabControl>
+            <TabItem Header="Header1">
+                <StackPanel>
+                    <TextBlock>Header1の内容</TextBlock>
+                </StackPanel>
+            </TabItem>
+            <TabItem Header="Header2">
+                <Grid>
+                    <TextBlock>Header2の内容</TextBlock>
+                </Grid>
+            </TabItem>
+        </TabControl>
+    </StackPanel>
+</Window>
