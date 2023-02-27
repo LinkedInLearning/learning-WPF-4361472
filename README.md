@@ -1,45 +1,41 @@
-# Building a GraphQL Project with React.js
-This is the repository for the LinkedIn Learning course Building a GraphQL Project with React.js. The full course is available from [LinkedIn Learning][lil-course-url].
+# WPF 入門
+LinkedInラーニングの「WPF 入門」コース用のリポジトリです。このコースは [LinkedInラーニング][lil-course-url]で視聴できます。
 
-![Building a GraphQL Project with React.js][lil-thumbnail-url] 
-Are you a web developer creating apps? GraphQL gives you a clean way to query complex server data efficiently, and React makes it easy to present that information as a web application in the browser. In this course, instructor Ray Villalobos teaches you how to assemble these parts, using the familiar structure of GitHub as a source for information. Ray first walks you through installing React, including how to use the command-line interface (CLI), as well as how to customize and add the node modules you will need for this project. He explores what you can do with the GitHub API using GraphiQL, then shows you how to retrieve data, generate a query component, and more. Ray goes over each step in building the React app, concluding with how to create the pagination interface.
+![WPF 入門][lil-thumbnail-url] 
+WPFはWindows用のデスクトップアプリーケーション開発用のUIフレームワークです。多様化した画面解像度や高いカスタマイズ性という新しい需要にこたえるためにリリースされました。このコースではWPFの基本から重要な要素であるXAMLについてまでをわかりやすく解説します。画面に配置する部品やコントロールのカスタマイズからXAMLとプログラミングコードを連携させるデータバインディング、イベントの仕組みについて学びます。このコースを学習することでWPFがどのようなUIフレームワークかを知ることができるでしょう。
 
-## Instructions
-This repository has branches for each of the videos in the course. You can use the branch pop up menu in github to switch to a specific branch and take a look at the course at that stage, or you can add `/tree/BRANCH_NAME` to the URL to go to the branch you want to access.
+## リポジトリの使い方
+このリポジトリには必要に応じてブランチが設けられています。ブランチのポップアップメニューを使用して、使用するブランチに切り替えたあとにコースを視聴してください。またURLに`「/tree/ブランチ名」`を追加することで、アクセスしたいブランチに移動することも可能です。
 
-## Branches
-The branches are structured to correspond to the videos in the course. The naming convention is `CHAPTER#_MOVIE#`. As an example, the branch named `02_03` corresponds to the second chapter and the third video in that chapter. 
-Some branches will have a beginning and an end state. These are marked with the letters `b` for "beginning" and `e` for "end". The `b` branch contains the code as it is at the beginning of the movie. The `e` branch contains the code as it is at the end of the movie. The `main` branch holds the final state of the code when in the course.
+## ブランチ
+ブランチはレッスンごとに作成されている場合があります。その場合はブランチ名に`「章番号_レッスン番号」`が付けられています。例えば`「02_03」`という名前のブランチは、2章の上から3番目のレッスン用のブランチとなります。
 
-When switching from one exercise files branch to the next after making changes to the files, you may get a message like this:
+レッスン前と後のコードを格納しているブランチもあります。該当ブランチには「開始時」（beginning）を表す`「b」`と、「終了時」（ending）を表す`「e」` がブランチ名についています。`「b」`のブランチにはレッスン開始時点のコードが、`「e」`のブランチにはレッスン終了時点のコードが格納されています。また「main」のブランチにはコードの最終形が格納されています。
+
+ファイルに変更を加えた後に、エクササイズファイルのブランチを次のブランチに切り替えたさい、次のようなメッセージが表示されることがあります。
 
     error: Your local changes to the following files would be overwritten by checkout:        [files]
     Please commit your changes or stash them before you switch branches.
     Aborting
 
-To resolve this issue:
+この問題を解決するには：
 	
-    Add changes to git using this command: git add .
-    Commit changes using this command: git commit -m "some message"
+    次のコマンドで変更を加えます：git add .
+	次のコマンドで変更をコミットします：git commit -m "some message"
 
-## Installing
-1. To use these exercise files, you must have the following installed:
-	- [Node.js](https://nodejs.org/)
-	- [Git](https://git-scm.com/)
-2. Clone this repository into your local machine using the terminal (Mac), CMD (Windows), or a GUI tool like SourceTree.
-3. Watch the `Using the Exercises for this course` video for further instructions.
+## インストール
+1. エクセサイズファイルを使用するには`Visual Studio 2017以降`がインストールされている必要があります
+	- [Visual Studio](https://visualstudio.microsoft.com/ja/downloads/)
+2. リポジトリをWindows PCにクローンしてください。
+3. フォルダーの中にある`ソリューションファイル（拡張子が.sln）`をVisual Studioで開くことで実行することができます。
 
+### インストラクター
 
+**西村 誠**
 
-### Instructor
+_プログラマー、Microsoft MVP_
 
-**Ray Villalobos**
+この講師の他のコースを視聴する：[LinkedInラーニング](https://www.linkedin.com/learning/instructors/13315091)
 
-_Senior Staff Instructor at LinkedIn Learning_
-
-Check out my other courses on [LinkedIn Learning](https://www.linkedin.com/learning/instructors/ray-villalobos?u=104).
-
-[lil-course-url]: https://www.linkedin.com/learning/
+[lil-course-url]: https://www.linkedin.com/learning/learning-wpf
 [lil-thumbnail-url]: https://cdn.lynda.com/course/2875095/2875095-1615224395432-16x9.jpg
-
-[1]: # (End of JP-Instruction ###############################################################################################) 
