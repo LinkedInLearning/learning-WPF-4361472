@@ -38,4 +38,4 @@ _プログラマー、Microsoft MVP_
 この講師の他のコースを視聴する：[LinkedInラーニング](https://www.linkedin.com/learning/instructors/13315091)
 
 [lil-course-url]: https://www.linkedin.com/learning/learning-wpf
-[lil-thumbnail-url]: https://cdn.lynda.com/course/2875095/2875095-1615224395432-16x9.jpg
+[lil-thumbnail-url]: https://media.licdn.com/dms/image/C560DAQERtPRM25Zi6Q/learning-public-crop_675_1200/0/1676402621777?e=2147483647&v=beta&t=6Edmz0Yg377_vrYVeHmx5xT-vsN8f71blXUlMv0nSBQ
